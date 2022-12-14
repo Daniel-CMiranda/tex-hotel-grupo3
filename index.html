@@ -1,92 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+            integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>DEVaneio</title>
+        <link
+            rel="shortcut icon"
+            href="src/assets/images/favicon/android-chrome-512x512.png"
+            type="image/x-icon"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>DEVaneio</title>
-    <link rel="shortcut icon" href="src/assets/images/favicon/android-chrome-512x512.png" type="image/x-icon">
-</head>
+    <body>
+        <header>
+            <nav style="text-align: right">
+                <a href="#">Olá usuário</a>&nbsp;&nbsp;
+                <a href="#">Login</a>&nbsp;&nbsp;
+                <a href="#">Sair</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </nav>
+            <table>
+                <tr>
+                    <td>
+                        <img
+                            src="src/assets/images/logo2.jpeg"
+                            width="300"
+                            alt="Logo do hotel"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <b><font size="7">Melhor lugar para debugar sua vida</font></b>
+                    </td>
+                    <br />
+                </tr>
+            </table>
+            </div>
+            <div style="text-align: right">
+                <a href="#">Cadastre-se</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <nav>
+                <a href="#">Sobre o nosso hotel</a> |
+                <a href="#">Nossas acomodações</a> |
+                <a href="#">Conheça mais sobre nossos serviços</a> |
+                <a href="#">Gastronomia</a> |
+                
+            </nav>
+        </header>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="src/assets/images/icons/user-interface.png" alt=""> Olá usuário ou Login</a>
-                </li>
-                <li><a href="#"><img src="src/assets/images/icons/enter.png" alt=""> Sair</a></li>
-            </ul>
-        </nav>
-
-        <div>
-            <a href="#"><img src="src/assets/images/logo/logo.svg" alt="Logo do hotel"></a>
-            <h1>Melhor lugar para debugar sua vida</h1>
-            <a href="#"><img src="src/assets/images/icons/cadastro.png" alt=""> Cadastre-se</a>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="#">Barra de Navegação</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-
-        <section>
-            <h2>Sobre o nosso Hotel</h2>
-            <picture>
-                <img src="src/assets/images/hotel-small.jpg" alt="Fachada do Hotel">
-            </picture>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum distinctio laudantium
-                    suscipit ea nemo ex ipsum architecto, aut aliquam incidunt harum aspernatur doloribus ratione,
-                    commodi eius nam, minima saepe?</p>
-            </article>
-        </section>
-
-        <section>
-            <article>
-                <h3>Nossas acomodações</h3>
+        <main>
+            <section>
+                <h2>Sobre o nosso Hotel</h2>
                 <picture>
-                    <img src="src/assets/images/dark-room.jpg" alt="Quarto escuro para DEV's">
-                    <img src="src/assets/images/dark-room2.jpg" alt="Quarto escuro para DEV's">
-                    <img src="src/assets/images/pool.jpg" alt="Piscina do Hotel">
-                    <img src="src/assets/images/lobby.jpg" alt="Hall de entrada do Hotel">
+                    <img
+                        src="src/assets/images/hotel-small.jpg"
+                        alt="Fachada do Hotel"
+                    />
                 </picture>
-                <button><a href="#">Conheça mais sobre nossos serviços</a></button>
-            </article>
-        </section>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequatur nostrum distinctio laudantium suscipit ea
+                        nemo ex ipsum architecto, aut aliquam incidunt harum
+                        aspernatur doloribus ratione, commodi eius nam, minima
+                        saepe?
+                    </p>
+                </article>
+            </section>
 
-        <section>
-            <h3>Gastronomia</h3>
-            <picture>
-                <img src="src/assets/images/gastronomia.jpg" alt="Café servido.">
-            </picture>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nostrum distinctio laudantium
-                    suscipit ea nemo ex ipsum architecto, aut aliquam incidunt harum aspernatur doloribus ratione,
-                    commodi eius nam, minima saepe?</p>
-            </article>
-        </section>
-    </main>
+            <section>
+                <article>
+                    <h3>Nossas acomodações</h3>
+                    <picture>
+                        <img
+                            src="src/assets/images/dark-room.jpg"
+                            alt="Quarto escuro para DEV's"
+                        />
+                        <img
+                            src="src/assets/images/dark-room2.jpg"
+                            alt="Quarto escuro para DEV's"
+                        />
+                        <img
+                            src="src/assets/images/pool.jpg"
+                            alt="Piscina do Hotel"
+                        />
+                        <img
+                            src="src/assets/images/lobby.jpg"
+                            alt="Hall de entrada do Hotel"
+                        />
+                    </picture>
+                    <button>
+                        <a href="#">Conheça mais sobre nossos serviços</a>
+                    </button>
+                </article>
+            </section>
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="src/assets/images/icons/phone-call.png" alt="">Contatos</a></li>
-                <li><a href="#"><img src="src/assets/images/icons/tool.png" alt=""> Localização</a></li>
-                <li><a href="#">Barra de navegação</a></li>
-            </ul>
-        </nav>
-    </footer>
-    <a href="https://www.flaticon.com/br/icones-gratis/cerca" title="cerca ícones">Cerca ícones criados por Freepik -
-        Flaticon</a>
-    <a href="#">&copy;</a>
-</body>
+            <section>
+                <h3>Gastronomia</h3>
+                <picture>
+                    <img
+                        src="src/assets/images/gastronomia.jpg"
+                        alt="Café servido."
+                    />
+                </picture>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Consequatur nostrum distinctio laudantium suscipit ea
+                        nemo ex ipsum architecto, aut aliquam incidunt harum
+                        aspernatur doloribus ratione, commodi eius nam, minima
+                        saepe?
+                    </p>
+                </article>
+            </section>
+        </main>
 
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">&copy;</a></li>
+                    <li><a href="#">Barra de navegação</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>
